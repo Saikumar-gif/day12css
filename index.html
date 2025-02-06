@@ -30,8 +30,8 @@
     }
     .container2{
         display: grid;
-        grid-template-columns:auto auto auto auto ;
-        grid-template-rows: auto auto auto auto ;
+        grid-template-columns: ;
+        grid-template-rows: ; 
        justify-content: space-around;
        gap: 10px;
        
@@ -64,7 +64,7 @@ font-size: 10px;
         
     }
 }
-@media screen and (width<575px) and (width<768px){
+@media screen and (width>576px) and (width<768px){
 
 
 .container2{
@@ -81,6 +81,17 @@ font-size: 10px;
 .container2{
     grid-template-columns: auto auto auto;
     grid-template-rows: auto auto auto;
+    
+    
+}
+}
+
+@media screen and (width>992px){
+
+
+.container2{
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
     
     
 }
